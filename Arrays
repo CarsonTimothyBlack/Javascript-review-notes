@@ -1,0 +1,14 @@
+1. Basic Rules
+  --syntax--
+    var food = [
+      'apple',
+      'bread',
+      'ham'
+    ];
+    
+  --accessing--
+    food[0]; (returns 'apple')
+    food[1]; (returns 'bread')
+    
+  --updating--
+    food[0] = 'plum'; ('plum' replaces 'apple' in the food array)
