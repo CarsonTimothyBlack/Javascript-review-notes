@@ -1,0 +1,42 @@
+1. Simple function
+  --syntax--
+    function hello() {
+      document.write('hello');          (The codeblock is any code between the {} of the function)
+    }
+    
+  --calling--
+    hello();      (This will run any code in the codeblock of the hello function)
+    
+2. Functions with 'parameters'
+  --syntax--
+    function area(width, height) {        ('width' & 'height' are the 'parameters')
+      return width * height;
+    }
+    
+  --calling (inputting 'arguments')--
+    area(3,5);       (3 and 5 are the 'arguments'. Function calling will return 15)
+    
+3. Single value functions
+  --syntax--
+    function area(width, height) {
+      var area = width * height;
+      return area;
+    }
+    (Simlar to above, just added a var for variety)
+    
+  --calling--
+    var area1 = area(3,5);  (returns 15)
+    var area2 = area(8,5);  (returns 40)
+    
+4. Multiple value function
+  --syntax--
+    function getSize(width, height, depth) {
+      var area = width * height;
+      var volume = width * height * depth;
+      var sizes = [area, volume];
+      return sizes;
+    }
+    
+  --calling--
+    var area1 = getSize(3,5,3)[0];  (returns 15)
+    var volume1 = getSize(3,5,3)[1];   (returns 45)
