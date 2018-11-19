@@ -1,6 +1,46 @@
 -Variables-
-1. syntax --
+1. Basic Rules
+--declaring syntax --
   String -- var food = 'fruit';
   Numeric -- var weight = 215;
   Boolean -- var godIsGood = true
-2. 
+  
+--alternative syntax (declaring then assigning value)--
+  var food;
+  food = fruit;
+  var weight;
+  weight = 215;
+  var godIsGood;
+  godIsGood = true;
+  
+--naming rules--
+  a. Must begin with letter, $, or _
+  b. Can contain letters, numbers, $, or _
+  c. Cannot use Keywords or Reserved words (like 'var', 'function', 'return', etc.)
+  d. Variables are case sensative (to call var bus, you must type 'bus', not 'Bus')
+  e. Descriptive names are prefered
+  f. Camel casing practice (var 'iloverice' should be 'iLoveRice')
+  
+2. Other Rules
+--Quotes within quotes on a string--
+  var love = "Haters shouldn't hate";
+  var bookQuote = 'The man said, "Yikes!", then died'; (Alternate quote types, single or double, to include in string)
+  
+  var foodLover = 'The food lover yelled \"I love salmon!\", before eating the donut'
+  (Escaping the quatation with '\' before each quote mark tells interpreter that following character is part of string)
+  
+--variables with operators--
+  var mathFun = 5 * 8; (mathFun returns 40)
+  
+  var weight = 215;
+  var foodAmount = 5;
+  var happiness = weight + foodAmount; (happiness returns 220)
+  
+--string concatenation--
+  var love = 'I love ';
+  var books = 'books';
+  var numbers = 'numbers';
+  var sentence = love + books + ' and ' + numbers + '!';
+  (snetence returns I love books and numbers!)
+  
+ 
