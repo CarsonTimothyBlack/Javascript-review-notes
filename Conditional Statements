@@ -1,0 +1,25 @@
+1. Comparison Operators (evaluate a condition to determine true or false)
+  ==    equal to      ===   strict equal to
+  !=    not equal to  !==   strict not equal to
+  >     greater than  >=    greater than or equal to
+  <     less than     <=    less than or equal to
+  
+2.  Condition structures
+  --single comparison operator--
+    (score >= 50)   (This is the condition. 'score' and '50' are operands, and '>=' is the comparison operator)
+    
+  --expressions in a comparison operator--
+    ((score1 + score2) > (highScore1 + highScore2))     (These expressions evaluate to a single value, so is still like a single comparison)
+
+  --logical operators--
+    &&  Logical And     (Both expressions must be true to evaluate to true)
+    ||  Logical Or      (At least one expression has to be true to evaluate to true)
+    !   Logical Not     (Inverts Boolean evaluation)
+    
+  --examples of logical operators--
+    ((5 > 2) && (6 > 3))  (evaluates to true)
+    ((5 > 2) || (6 > 8))  (evaluates to true)
+    !(5 > 2)              (evaluates to false)
+    
+3.
+4.
