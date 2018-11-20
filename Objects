@@ -1,0 +1,31 @@
+1. Vocabulary
+  --'Properties' = Variables in an object
+  --'Methods' = Functions in an object
+  --'Key' = Name of property
+  
+2. Object literal
+  --structure--
+    var hotel = {
+      name: 'Quay',             (These are key/value 'properties')
+      rooms: 40,
+      booked: 25,
+      gym: true,
+      
+      roomTypes: ['twin', 'double', 'suite'],       (This is an array within an object)
+      
+      checkAvailability: function() {               (This is a 'method' which is a function within an object)
+        return this.rooms - this.booked;
+      }
+    };
+    
+  --accessing--
+    var hotelName = hotel.name; (This variable is given the value of 'Quay', by using this structure to access: object.property/method name.
+                                  This '.' is called a member operator)
+    var roomsFree = hotel.checkAvailability();  (This variable will run the method in the hotel object)
+    
+  --alternate access--
+    var hotelName = hotel['name'];
+    var roomsFree = hotel['checkAvailability]();
+3.
+4.
+5.
