@@ -21,5 +21,32 @@
     ((5 > 2) || (6 > 8))  (evaluates to true)
     !(5 > 2)              (evaluates to false)
     
-3.
-4.
+3. if statements
+   --structure--
+    if (score >= 50) {    (If condition is true, codeblock runs. Otherwise, script continues)
+      congratulate();
+    }
+    
+4. if...else statements
+  --structure--
+    if (score >= 50) {    (If condition is true, first codeblock runs. Otherwise, else codeblock runs)
+      congratulations();
+    } else {
+      encourage();
+    }
+5. switch statments
+  --structure--
+    switch (level) {            (If switch value 'level' is any of the cases, that case's codeblock runs. Otherwise, default block runs)
+      case 'One':
+        title = 'Level 1';
+        break;
+      case 'Two':
+        title = 'Level 2';
+        break;
+      case 'Three':
+        title = 'Level 3';
+        break;
+      default:
+        title = 'Test';
+        break;
+    }
