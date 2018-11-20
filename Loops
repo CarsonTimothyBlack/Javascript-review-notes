@@ -1,0 +1,25 @@
+1. for loop         (Will cycle through loop a set number of times until condition is false)
+  --structure--
+    for (var i = 0; i < 10; i++) {
+      document.write(i);
+    }
+    
+  --breakdown of parts--
+    var i = 0  is the initialization
+    i < 10     is the condition
+    i++        is the update that happens at the end of each loop runthrough
+
+2. while loop       (Will cycle through the loop while condition is true, usually an unknown amount of times)
+  --structure--
+    while (i < 10) {
+      msg += i + ' x 5 = ' + (i * 5) + '<br />';
+      i++;
+    }
+    
+3. do while loop    (Will run at least once, even if while condition is false)
+  --structure--
+    do {
+      msg += i + ' x 5 = ' + (i * 5) + '<br />';
+      i++;
+    } while (i < 1);
+4.
